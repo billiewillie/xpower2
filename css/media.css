@@ -1,0 +1,274 @@
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1182px) {
+  .mob__hidden{
+    display: block;
+  }
+  .container{
+    max-width: 1170px;
+  }
+  .header{
+    text-align: right;
+    padding: 80px 0;
+    background-image: url(../img/header__bg.jpg);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  .header__inner{
+    display: inline-block;
+    width: 780px;
+    text-align: left;
+  }
+  .header__left{
+    display: table-cell;
+    vertical-align: middle;
+    width: 350px;
+    font-size: 33px;
+  }
+  .header__item{
+    margin-bottom: 50px;
+  }
+  .header__right{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .title{
+    font-size: 160px;
+  }
+  .subtitle{
+    font-size: 42px;
+  }
+  .header__price>div{
+    display: inline-block;
+    width: 50%;
+  }
+  .discount{
+    font-size: 75px;
+    text-align: left;
+  }
+  .price__digit{
+    font-size: 75px;
+  }
+  .price__left{
+    margin-bottom: 0;
+    vertical-align: top;
+  }
+  .price__right{
+    padding-top: 40px;
+  }
+  .button{
+    text-align: left;
+  }
+  .btn{
+    font-size: 51px;
+    padding: 20px 65px;
+  }
+  .price{
+    padding: 25px 50px;
+  }
+
+
+  .adv{
+    padding: 80px 0 300px;
+    background-image: url(../img/adv__bg.jpg);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  .adv__content{
+    width: 800px;
+  }
+  .adv__text{
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .adv__spec{
+    font-size: 32px;
+  }
+  .adv__list{
+    margin-top: 120px;
+  }
+  .adv__item{
+    width: 50%;
+    padding-left: 100px;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+    vertical-align: top;
+    min-height: 140px;
+
+  }
+  .adv__item::before{
+    width: 77px;
+    height: 77px;
+    top: -20px;
+  }
+  
+
+  .how{
+    padding: 80px 0 300px;
+  }
+  .how .container{
+    padding-left: 360px;
+  }
+  .how__title{
+    font-size: 50px;
+  }
+  .how__spec{
+    font-size: 55px;
+  }
+  .how__list{
+    padding: 0 150px 0 55px;
+    position: relative;
+  }
+  .how__list::before{
+    position: absolute;
+    display: block;
+    content: '';
+    left: -640px;
+    bottom: -320px;
+    background-image: url(../img/how__girl.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 640px;
+    height: 900px;
+  }
+  .how__item{
+    font-size: 25px;
+  }
+  .how__big{
+    font-size: 32px;
+  }
+
+
+  .result{
+    padding: 30px 0;
+    background-image: url(../img/result__bg.jpg);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .result__item{
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+  }
+  .res__lower{
+    padding-top: 30px;
+  }
+  .result__title{
+    font-size: 50px;
+  }
+
+
+  .promo{
+    text-align: left;
+  }
+  .promo__title{
+    font-size: 50px;
+  }
+
+
+  .delivery .title{
+    font-size: 50px;
+  }
+  .delivery .subtitle{
+    font-size: 30px;
+  }
+
+
+  .del__item{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding: 0 20px;
+  }
+  .del__left,
+  .del__right{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .del__left{
+    padding-right: 90px;
+  }
+  .del__right{
+    padding-left: 90px;
+  }
+  .del__box{
+    min-height: 220px;
+  }
+
+
+  .order{
+    background-image: url(../img/order__bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+  .order__content{
+    width: 930px;
+  }
+  .order__left{
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+  }
+  .order__left .title{
+    font-size: 130px;
+  }
+  .order__left .subtitle{
+    font-size: 37px;
+  }
+  .order__right{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  .order__b--left,
+  .order__b--right{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+  }
+  .order__b--left .header__price>div{
+    width: 100%;
+  }
+  .order__b--left .discount{
+    font-size: 63px;
+    text-align: center;
+  }
+  .order__b--left .header__right{
+    display: block;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .order__bottom{
+    font-size: 0;
+    width: 850px;
+  }
+  .form__field .btn{
+    font-size: 31px;
+    width: 100%;
+  }
+  .form__field{
+    margin-bottom: 40px;
+  }
+  .input{
+    padding: 20px;
+    font-size: 25px;
+  }
+  .order__top{
+    margin-bottom: 40px;
+  }
+  .web__hidden{
+    display: none !important;
+  }
+}
